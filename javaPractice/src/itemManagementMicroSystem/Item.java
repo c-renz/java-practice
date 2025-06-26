@@ -19,7 +19,15 @@ public class Item {
 		this.name = name;
 	}
 
-	public Item(String code, String name, String Price) {
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+	public Item(String code, String name, String price) {
 		this.code = code;
 		this.name = name;
 		this.price = price;
@@ -32,11 +40,4 @@ public class Item {
 		return "Item code: " + code + " | Name: " + name + " | Price: " + price;
 	}
 
-	public String getPrice() {
-		return price;
-	}
-
-	public void setPrice(String price) {
-		this.price = price;
-	}
 }

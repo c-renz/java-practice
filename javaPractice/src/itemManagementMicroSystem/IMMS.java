@@ -40,7 +40,7 @@ public class IMMS {
 			clearScreen();
 			userChoice.showView();
 			// Prompt the user to press Enter to return to the main selection screen
-			System.out.print("\n\nPress Enter to go back to the selection screen ");
+			System.out.print("\n\nPress ENTER to go back to the selection screen ");
 
 			// Wait for the user to press Enter
 			System.in.read();
