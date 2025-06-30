@@ -21,8 +21,12 @@ public class Launcher {
 				// SWING 04
 //				BorderLayoutPractice borderPractice = new BorderLayoutPractice();
 //				borderPractice.show();
-				FlowLayoutPractice flowPractice = new FlowLayoutPractice();
-				flowPractice.show();
+				// SWING 05
+//				FlowLayoutPractice flowPractice = new FlowLayoutPractice();
+//				flowPractice.show();
+				// SWING 06
+				GridLayoutPractice gridPractice = new GridLayoutPractice();
+				gridPractice.show();
 			}
 
 		});
