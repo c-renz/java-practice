@@ -9,9 +9,12 @@ public class Launcher {
 
 			@Override
 			public void run() {
-				MainWindow main = new MainWindow();
-				main.show();
-
+				// SWING PRACTICE
+				// SWING 01 // best practice on creating windows
+//				MainWindow main = new MainWindow();
+//				main.show();
+				// SWING 02
+				JFrameFirstWay frame1 = new JFrameFirstWay();
 			}
 
 		});
