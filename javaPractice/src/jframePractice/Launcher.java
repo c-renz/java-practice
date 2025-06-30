@@ -17,7 +17,7 @@ public class Launcher {
 //				JFrameFirstWay frame1 = new JFrameFirstWay();
 //				JFrameBestWay frame2 = new JFrameBestWay(); // Best way
 				// SWING 03
-
+				JPanelpractice frame3 = new JPanelpractice();
 			}
 
 		});
