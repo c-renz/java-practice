@@ -19,8 +19,10 @@ public class Launcher {
 				// SWING 03
 //				JPanelpractice frame3 = new JPanelpractice();
 				// SWING 04
-				BorderLayoutPractice blp = new BorderLayoutPractice();
-				blp.show();
+//				BorderLayoutPractice borderPractice = new BorderLayoutPractice();
+//				borderPractice.show();
+				FlowLayoutPractice flowPractice = new FlowLayoutPractice();
+				flowPractice.show();
 			}
 
 		});
