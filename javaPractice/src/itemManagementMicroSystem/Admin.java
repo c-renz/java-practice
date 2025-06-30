@@ -53,7 +53,7 @@ public class Admin implements View {
 		for (Item s : IMMS.itemList) {
 			System.out.print(" " + s.getPrice() + ".00 |");
 		}
-		System.out.println("Item information is now COMPLETED!");
+		System.out.println("\nItem information is now COMPLETED!");
 	}
 
 	public static void clearScreen() {

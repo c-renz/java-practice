@@ -32,6 +32,16 @@ public class IMMS {
 			} else if (view.equalsIgnoreCase("Customer")) {
 				clearScreen();
 				userChoice = new Customer();
+				userChoice.showView();
+				System.out.println("Do you want to go back to selection screen? Yes || No");
+				view = scanner.next();
+				if (view.equalsIgnoreCase("yes")) {
+					continue;
+				} else if (view.equalsIgnoreCase("No")) {
+					clearScreen();
+					System.out.println("Thank you for using the system\n\nShutting down...");
+					break;
+				}
 			} else {
 				clearScreen();
 				System.out.println("Invalid");
