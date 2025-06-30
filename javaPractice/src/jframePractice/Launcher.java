@@ -14,7 +14,10 @@ public class Launcher {
 //				MainWindow main = new MainWindow();
 //				main.show();
 				// SWING 02
-				JFrameFirstWay frame1 = new JFrameFirstWay();
+//				JFrameFirstWay frame1 = new JFrameFirstWay();
+//				JFrameBestWay frame2 = new JFrameBestWay(); // Best way
+				// SWING 03
+
 			}
 
 		});
