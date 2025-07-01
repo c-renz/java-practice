@@ -25,8 +25,11 @@ public class Launcher {
 //				FlowLayoutPractice flowPractice = new FlowLayoutPractice();
 //				flowPractice.show();
 				// SWING 06
-				GridLayoutPractice gridPractice = new GridLayoutPractice();
-				gridPractice.show();
+//				GridLayoutPractice gridPractice = new GridLayoutPractice();
+//				gridPractice.show();
+				// SWING 07
+				JButtonPractice buttonPractice = new JButtonPractice();
+				buttonPractice.show();
 			}
 
 		});
