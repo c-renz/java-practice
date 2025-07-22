@@ -30,6 +30,9 @@ public class Launcher {
 				// SWING 07
 //				JButtonPractice buttonPractice = new JButtonPractice();
 //				buttonPractice.show();
+				// SWING 08
+//				JLabelPractice labelPractice = new JLabelPractice();
+//				labelPractice.show();
 			}
 
 		});
