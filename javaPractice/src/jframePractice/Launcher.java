@@ -28,8 +28,8 @@ public class Launcher {
 //				GridLayoutPractice gridPractice = new GridLayoutPractice();
 //				gridPractice.show();
 				// SWING 07
-				JButtonPractice buttonPractice = new JButtonPractice();
-				buttonPractice.show();
+//				JButtonPractice buttonPractice = new JButtonPractice();
+//				buttonPractice.show();
 			}
 
 		});
